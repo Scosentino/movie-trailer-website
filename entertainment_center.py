@@ -8,5 +8,4 @@ avatar = media.Movie("Avatar", "Aliens in another world", "https://upload.wikime
 bad_boys = media.Movie("Bad Boys 2", "Two blacks dudes gunning them down", "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Avatar-Teaser-Poster.jpg/220px-Avatar-Teaser-Poster.jpg", "https://www.youtube.com/watch?v=hsuKq5pNOcM")
 
 movies = [toy_story, avatar, bad_boys]
-#fresh_tomatoes.open_movies_page(movies)
-print(media.Movie.show_trailer.___doc___)
+fresh_tomatoes.open_movies_page(movies)
