@@ -1,7 +1,7 @@
 import webbrowser
 
 class Movie():
-
+    """This is the Movie class, it creates instances of a movie"""
 
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
@@ -12,6 +12,6 @@ class Movie():
 
     def show_trailer(self):
         """
-        This class provides a way to store movie related information
+         This function will open a brower to a movies trailer url
         """
         webbrowser.open(self.trailer_youtube_url)
